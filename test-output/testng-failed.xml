@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="CampaignTest(failed)">
+    <classes>
+      <class name="test_Cases.TestLoginWithReport">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test_Cases.TestLoginWithReport -->
+      <class name="test_Cases.TestSearchCampaigns">
+        <methods>
+          <include name="setup"/>
+          <include name="cleanUp1"/>
+        </methods>
+      </class> <!-- test_Cases.TestSearchCampaigns -->
+      <class name="test_Cases.TestCampaginWithReport">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyCampaignLink"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- test_Cases.TestCampaginWithReport -->
+    </classes>
+  </test> <!-- CampaignTest(failed) -->
+  <test name="SearchCampaignTest(failed)">
+    <classes>
+      <class name="test_Cases.TestLoginWithReport">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test_Cases.TestLoginWithReport -->
+      <class name="test_Cases.TestSearchCampaigns">
+        <methods>
+          <include name="setup"/>
+          <include name="cleanUp1"/>
+          <include name="verifySearchCampaign"/>
+        </methods>
+      </class> <!-- test_Cases.TestSearchCampaigns -->
+      <class name="test_Cases.TestCampaginWithReport">
+        <methods>
+          <include name="setup"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- test_Cases.TestCampaginWithReport -->
+    </classes>
+  </test> <!-- SearchCampaignTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
